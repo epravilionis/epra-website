@@ -3,6 +3,8 @@ src/components
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+// ✅ Force BaseHead to stay in the bundle
+const _forceIncludeBaseHead = BaseHead;
 ---
 
 <!doctype html>
