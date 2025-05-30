@@ -3,8 +3,6 @@ src/components
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { Image } from 'astro:assets';
-import ernestasImage from '../assets/PlaygroundImage2.png';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
@@ -17,7 +15,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<Header />
 		<main>
 			<h1>Hello!</h1>
-			<Image src={ernestasImage} alt="Ernestas Pravilionis" />
 			<h2>Big City Services at Upstate Prices – Full-Service Legal Solutions for Businesses and Individuals.</h2>
 			<p>
 				Welcome to the Law Practice of Ernestas Pravilionis - firm aims to break down barriers to legal access throughout New York State
