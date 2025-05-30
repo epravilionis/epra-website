@@ -7,9 +7,9 @@ import Footer from '../components/Footer.astro';
 
 <!doctype html>
 <html lang="en">
-	<head>
-<BaseHead title="Law Practice of Ernestas Pravilionis" description="Welcome to my site!" />
-	</head>
+<head>
+  {BaseHead && <BaseHead title="Law Practice of Ernestas Pravilionis" description="Welcome to my site!" />}
+</head>
 	<body>
 		<Header />
 		<main>
