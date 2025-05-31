@@ -7,17 +7,22 @@ import Footer from '../components/Footer.astro';
 const _forceInclude = BaseHead;
 ---
 
+<style>
+  h2 {
+    font-size: 2rem; /* Change this value as needed */
+  }
+</style>
+
 <!doctype html>
 <html lang="en">
 <head>
-  {BaseHead && <BaseHead title="Law Practice of Ernestas Pravilionis" description="Welcome to Law Practice website!" />}
+  {BaseHead && <BaseHead title="Law Practice of Ernestas Pravilionis" description="Welcome to EPRA Legal website!" />}
 </head>
 	<body>
 		<Header />
 		<main>
-			<h1>Hello!</h1>
 			<h2>Big City Services at Upstate Prices – Full-Service Legal Solutions for Businesses and Individuals.</h2>
-			<p>
+			<p style="text-align: justify;">
 				Law Practice of Ernestas Pravilionis - aims to break down barriers to legal services access throughout New York State
 				by being the most accessible, tech-enabled, and trusted remote-first law firm. We are committed to delivering innovative, 
 				client-centered, and technology driven solutions with integrity and empathy. Our growth is driven by a passion for justice, 
@@ -33,14 +38,14 @@ const _forceInclude = BaseHead;
 				<li>Intellectual Property Law</li>
 				<li>Technology & Internet Law</li>
 			</ul>
-			<p>
+			<p style="text-align: justify;">
 				We serve clients statewide with a focus on small and medium size businesses & individuals
 				based in Hudson Valley Region and NYC.
 			</p>
-			<p>
-				Looking for a law firm with a bit more flexibility? Contact us for a flat-fee pricing options 
-				and affordable hourly prices:
-				<a href="https://law-practice-of-ernestas-pravilionis.mycase.com/contact_us/KHM4h3gnSB62ciJgkZyzih57">by Clicking Here</a>.
+			<p style="text-align: justify;">
+				Looking for a law firm with a bit more flexibility? Contact us for a flat-fee pricing options
+				and affordable hourly prices by
+				<a href="https://law-practice-of-ernestas-pravilionis.mycase.com/contact_us/KHM4h3gnSB62ciJgkZyzih57">Clicking Here</a>.
 			</p>
 		</main>
 		<Footer />
