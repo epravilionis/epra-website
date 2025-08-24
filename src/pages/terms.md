@@ -1,3 +1,4 @@
+---
 title: Terms of Use
 layout: ../layouts/MainLayout.astro
 ---
