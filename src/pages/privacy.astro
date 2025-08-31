@@ -9,27 +9,40 @@ import { SITE_TITLE } from '../consts';
 	pubDate={new Date('September 1 2025')}
 >
 <h4>Information We May Collect</h4>
-<p>Basic information you provide (such as contact form submissions or emails you send us).</p>  
-<p>Basic technical information (such as your IP address and browser type) that may be automatically collected to help us improve the website.</p>
+<p>Basic information you provide (such as contact form submissions or emails you send us).<br>
+Basic technical information (such as your IP address and browser type) that may be automatically collected to help us improve the website.</p>
 
 <h4>How We May Use Information</h4>
-<p>To respond to your inquiries or messages.</p>
-<p>To maintain and improve our website.</p>
+<p>To respond to your inquiries or messages.<br>
+To maintain and improve our website.</p>
 
 <h4>Sharing of Information</h4>
 <p>We do not sell, trade, or share your personal information with third parties, except if required by law.</p>
 
-<h>Cookies</h>
+<h4>Cookies</h4>
 </p>This site may use simple cookies for functionality and website performance. You can disable cookies in your browser if you prefer.</p>
 
-<h>Your Rights</h>
+<h4>Your Rights</h4>
 <p>If you are located in the EU/EEA, California or other jurisdiction (that entitles you to such right), you have the right to access, correct, or delete your personal data. To make a request, please contact us.</p>
 
-<h>Contact Us</h>
+<h4>Contact Us</h4>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
-		  <li>By email: clients@epralegal.com</li>
+		<li>By email: clients@epralegal.com</li>
 </ul>
+
+			<h1>My First Google Map</h1>
+			<div id="googleMap" style="width:100%;height:400px;"></div>
+			<script>
+			function myMap() {
+			var mapProp= {
+  			center:new google.maps.LatLng(51.508742,-0.120850),
+  			zoom:5,
+			};
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+			</script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
 </layout>
 
